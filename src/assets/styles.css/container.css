@@ -1,0 +1,51 @@
+.framed-golden-2 {
+    /* border */
+    border-style: solid;
+    border-image-source: url("../icons/border-image-golden2.png");
+    border-image-repeat: repeat;
+    border-image-slice: 8 8 8 8;
+    border-image-width: 18px;
+    border-width: 15px;
+    padding: 12px;
+
+    /* internal border */
+    box-sizing: border-box;
+
+    /* background */
+    background: url("../icons/background-image-golden2.png") repeat repeat;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-position: center;
+}
+
+.framed {
+  /* border */
+  border-style: solid;
+  border-image-source: url("../icons/border-image.png");
+  border-image-repeat: repeat;
+  border-image-slice: 6 6 6 6;
+  border-image-width: 18px;
+  border-width: 15px;
+  padding: 12px;
+
+  /* internal border */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  /* background */
+  background: url("../icons/background-image-golden2.png") repeat repeat;
+  background-clip: padding-box;
+  background-origin: padding-box;
+  background-position: center;
+}
+.framed2 {
+  /* border */
+  border-style: solid;
+  border-image-source: url("../icons/border-image.png");
+  border-image-repeat: repeat;
+  border-image-slice: 6 6 6 6;
+  border-image-width: 18px;
+  border-width: 15px;
+  padding: 12px;
+}
